@@ -5,7 +5,7 @@ import org.junit.Test;
 public class CalcTest {
 	@Test (expected=ArithmeticException.class)
 	public void subtractTest() {
-		assertEquals(Calc.subtract(0, 0), 0);
+		assertEquals(Calc.subtract(0, 0), 1);
 		assertEquals(Calc.subtract(10, 5), 5);
 		assertEquals(Calc.subtract(5, 10), -5);
 		assertEquals(Calc.subtract(-10, -5), -5);
